@@ -1,0 +1,14 @@
+{
+    "local": {
+        "provider": "local",
+        "module": "passport-local",
+        "usernameField": "username",
+        "passwordField": "password",
+        "authPath": "/auth/local",
+        "callbackURL":"/auth/local/callback",
+        "successRedirect": "http://localhost:8100?loggedIn=true",
+        "failureRedirect": "/error",
+        "setAccessToken": true, 
+        "callbackHTTPMethod": "post"         
+    }
+}
